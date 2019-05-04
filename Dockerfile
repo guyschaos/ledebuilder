@@ -7,7 +7,7 @@ RUN \
   apt-get update && \
   # apt-get -y upgrade && \
   apt-get install -y build-essential && \
-  apt-get install -y asciidoc binutils uuidgen \
+  apt-get install -y asciidoc binutils uuid-runtime \
     bzip2 gawk gettext git libncurses5-dev \
     libz-dev patch unzip zlib1g-dev lib32gcc1 \
     libc6-dev-i386 subversion flex uglifyjs \
